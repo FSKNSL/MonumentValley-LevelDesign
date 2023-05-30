@@ -242,6 +242,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 1
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.3
   stairOffset: 0.4
 --- !u!1 &75104399
@@ -583,6 +584,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &114382154
@@ -642,6 +644,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.2
   stairOffset: 0.4
 --- !u!65 &114382157
@@ -755,6 +758,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1.4
   stairOffset: 0.4
 --- !u!65 &148077118
@@ -828,7 +832,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148077116}
   m_LocalRotation: {x: -0, y: -0.9686722, z: -0, w: 0.24834296}
-  m_LocalPosition: {x: 5.98, y: -19.67, z: 8.74}
+  m_LocalPosition: {x: 5.98, y: -125.4, z: 8.74}
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -847,7 +851,6 @@ GameObject:
   - component: {fileID: 151143821}
   - component: {fileID: 151143820}
   - component: {fileID: 151143819}
-  - component: {fileID: 151143823}
   m_Layer: 0
   m_Name: Cube25
   m_TagString: Untagged
@@ -934,28 +937,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &151143823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151143818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e30ae3e0af2d2b84d9bb63666912f146, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  possiblePaths:
-  - target: {fileID: 8114539469113256339}
-    active: 1
-  previousBlock: {fileID: 0}
-  isStair: 0
-  movingGround: 0
-  isButton: 0
-  dontRotate: 0
-  walkPointOffset: 0.8
-  stairOffset: 0.4
 --- !u!1 &159232506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,7 +1027,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159232506}
   m_LocalRotation: {x: -0, y: -0.96857095, z: -0, w: 0.24873775}
-  m_LocalPosition: {x: 19.12, y: -20, z: 13.36}
+  m_LocalPosition: {x: 19.12, y: -90.4, z: 13.36}
   m_LocalScale: {x: 1.8, y: 3, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1226,6 +1207,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &275921842
@@ -1415,6 +1397,7 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1.4
   stairOffset: 0.4
 --- !u!1 &286069386
@@ -1535,6 +1518,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &328214538
@@ -1690,6 +1674,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &338271598
@@ -1875,6 +1860,7 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1.4
   stairOffset: 0.4
 --- !u!1 &474482700
@@ -2292,6 +2278,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1.4
   stairOffset: 0.4
 --- !u!65 &573058928
@@ -2365,7 +2352,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573058926}
   m_LocalRotation: {x: -0, y: -0.9686722, z: -0, w: 0.24834296}
-  m_LocalPosition: {x: 7.16, y: -19.67, z: 10.95}
+  m_LocalPosition: {x: 7.16, y: -121.2, z: 10.95}
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2492,6 +2479,7 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1.4
   stairOffset: 0.4
 --- !u!1 &616344814
@@ -2858,6 +2846,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &709558975
@@ -2897,7 +2886,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -114, y: -104}
+  m_AnchoredPosition: {x: -53.8, y: -104}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &709558977
@@ -3120,6 +3109,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &863145448 stripped
@@ -3171,6 +3161,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1
   stairOffset: 0.4
 --- !u!64 &871126759
@@ -5194,6 +5185,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1.4
   stairOffset: 0.4
 --- !u!1 &984349416
@@ -5413,6 +5405,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1033920313 stripped
@@ -5433,7 +5426,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh135604
+  m_Name: pb_Mesh21270
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5685,6 +5678,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.2
   stairOffset: 0.4
 --- !u!65 &1066602303
@@ -5870,6 +5864,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1086677733
@@ -6089,6 +6084,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.3
   stairOffset: 0.4
 --- !u!1 &1111362071
@@ -6150,6 +6146,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1111362074
@@ -6274,6 +6271,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.2
   stairOffset: 0.4
 --- !u!65 &1123745796
@@ -6475,6 +6473,7 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1.4
   stairOffset: 0.4
 --- !u!1 &1223818776
@@ -6597,6 +6596,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1.4
   stairOffset: 0.4
 --- !u!1 &1239225968 stripped
@@ -6834,6 +6834,7 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1.4
   stairOffset: 0.4
 --- !u!1 &1352895892
@@ -6861,7 +6862,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352895892}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1352895894
 Camera:
   m_ObjectHideFlags: 0
@@ -6912,8 +6913,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352895892}
-  m_LocalRotation: {x: -0.2366299, y: 0.6933394, z: -0.2609617, w: -0.62863797}
-  m_LocalPosition: {x: 47.20874, y: 20.237812, z: 15.341987}
+  m_LocalRotation: {x: -0.25177783, y: 0.6770467, z: -0.2665361, w: -0.638102}
+  m_LocalPosition: {x: 33.063705, y: 6.943924, z: 8.8496065}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7041,6 +7042,7 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1.4
   stairOffset: 0.4
 --- !u!1 &1416940446
@@ -7146,7 +7148,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh134974
+  m_Name: pb_Mesh20640
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7528,14 +7530,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1538099855}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.004528452, y: 0.0038395626, z: -0.00019224973, w: 0.99998236}
   m_LocalPosition: {x: 139.2036, y: 54.336502, z: 12.958704}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 27
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.519, y: 0.44, z: -0.02}
 --- !u!114 &1538099857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7549,6 +7551,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cubeTransform: {fileID: 528550294}
+  cubeTransform1: {fileID: 148077121}
+  cubeTransform2: {fileID: 573058931}
+  cubeTransform3: {fileID: 1659842489}
+  cubeTransform4: {fileID: 1997947436}
+  cubeTransform5: {fileID: 159232510}
+  playerController2: {fileID: 1341948960962123440}
   player: {fileID: 1341948960962123439}
   pathConditions:
   - pathConditionName: Left Condition
@@ -7670,6 +7678,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.2
   stairOffset: 0.4
 --- !u!65 &1605041102
@@ -7855,6 +7864,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1.4
   stairOffset: 0.4
 --- !u!1 &1612987925 stripped
@@ -7960,7 +7970,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659842485}
   m_LocalRotation: {x: -0, y: -0.9686722, z: -0, w: 0.24834296}
-  m_LocalPosition: {x: 8.29, y: -19.65, z: 13.01}
+  m_LocalPosition: {x: 8.29, y: -139, z: 13.01}
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7989,6 +7999,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1.4
   stairOffset: 0.4
 --- !u!1 &1665873001
@@ -8111,6 +8122,7 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1.4
   stairOffset: 0.4
 --- !u!1 &1674172671
@@ -8421,6 +8433,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1728193991 stripped
@@ -8563,7 +8576,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -115, y: -104}
+  m_AnchoredPosition: {x: -55, y: -104}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1743195262
@@ -8715,6 +8728,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1744977201
@@ -8837,6 +8851,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.2
   stairOffset: 0.4
 --- !u!65 &1822279726
@@ -9338,7 +9353,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997947432}
   m_LocalRotation: {x: -0, y: -0.4973332, z: -0, w: 0.8675596}
-  m_LocalPosition: {x: 14.26, y: -19.98, z: 12.25}
+  m_LocalPosition: {x: 14.26, y: -73.7, z: 12.25}
   m_LocalScale: {x: 2.1, y: 3, z: 9.2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9497,7 +9512,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh135730
+  m_Name: pb_Mesh21398
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10228,8 +10243,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885914146526189352}
   m_LocalRotation: {x: 0.000000015498976, y: 0.7050586, z: -0.000000015409565, w: 0.7091491}
-  m_LocalPosition: {x: 0.105311655, y: 0.46666718, z: -0.0062117935}
-  m_LocalScale: {x: 0.39999467, y: 0.6666667, z: 0.28571698}
+  m_LocalPosition: {x: -0.003, y: 0.55, z: 0}
+  m_LocalScale: {x: 0.36204317, y: 0.6666667, z: 0.26415393}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 151143822}
@@ -10956,6 +10971,7 @@ GameObject:
   - component: {fileID: 5297712458506325919}
   - component: {fileID: 4740327582806543872}
   - component: {fileID: 3294598348418542680}
+  - component: {fileID: 5297712458506325920}
   m_Layer: 0
   m_Name: button01
   m_TagString: Untagged
@@ -13603,6 +13619,7 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!4 &5040700667561035956
@@ -13701,6 +13718,29 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885914146526189352}
   m_Mesh: {fileID: -8094772422578323167, guid: 907d4288551210c478ef133cdd44b2f6, type: 3}
+--- !u!114 &5297712458506325920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885914146526189352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e30ae3e0af2d2b84d9bb63666912f146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  possiblePaths:
+  - target: {fileID: 8114539469113256339}
+    active: 1
+  previousBlock: {fileID: 0}
+  isStair: 0
+  movingGround: 0
+  isButton: 0
+  dontRotate: 0
+  isButton2: 1
+  walkPointOffset: 0.2
+  stairOffset: 0.4
 --- !u!4 &5382461705856980452
 Transform:
   m_ObjectHideFlags: 0
@@ -14716,13 +14756,14 @@ MonoBehaviour:
   possiblePaths:
   - target: {fileID: 871126763}
     active: 1
-  - target: {fileID: 151143822}
+  - target: {fileID: 1081115006725621428}
     active: 1
   previousBlock: {fileID: 0}
   isStair: 1
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  isButton2: 0
   walkPointOffset: 1
   stairOffset: 0.4
 --- !u!33 &8114539469113256338
