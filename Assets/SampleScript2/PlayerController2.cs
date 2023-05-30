@@ -175,6 +175,14 @@ public class PlayerController2 : MonoBehaviour
             s.AppendCallback(() => GameManager2.instance.RotatePivot());
         }
 
+        if(clickedCube.GetComponent<Walkable>().isButton2)
+        {
+            /*·½¿éµÄÉÏÉý*/
+
+            s.AppendCallback(() => GameManager2.instance.RisePivot());
+
+        }
+
         s.AppendCallback(() => Clear());
     }
 

@@ -20,6 +20,7 @@ public class Walkable : MonoBehaviour
     public bool movingGround = false;
     public bool isButton;
     public bool dontRotate;
+    public bool isButton2;
 
     [Space]
 
